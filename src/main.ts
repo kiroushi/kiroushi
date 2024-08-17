@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import EmptyComponent from './EmptyComponent.vue'
 import MemoryLeak from './MemoryLeak.vue'
 import MemorySafe from './MemorySafe.vue'
+import MemoryLeakMicrophone from './MemoryLeakMicrophone.vue'
 import Wrapper from './Wrapper.vue'
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ const router = new Router({
           path: 'memory-leak',
           name: 'memory-leak',
           component: MemoryLeak,
+        },
+        {
+          path: 'permission-leak',
+          name: 'permission-leak',
+          component: MemoryLeakMicrophone,
         }
       ]
     },

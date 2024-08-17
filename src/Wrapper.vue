@@ -5,6 +5,7 @@
       <RouterLink to="/">Empty</RouterLink>
       <RouterLink to="/memory-safe">Memory safe</RouterLink>
       <RouterLink to="/memory-leak">Memory unsafe</RouterLink>
+      <RouterLink to="/permission-leak">Permission memory unsafe</RouterLink>
     </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
     <router-view />
